@@ -97,6 +97,7 @@ class Video:
             print(img)
             time.sleep(1/60)       # time.sleep(秒)
 
+
 def main(video, size):
     """字符串视频主程序"""
 
@@ -117,8 +118,5 @@ def main(video, size):
     vid.playStrVideo(frames)
 
 
-
-
 if __name__ == '__main__':
     main("./video/bad_apple.mp4", (86, 64))
-
